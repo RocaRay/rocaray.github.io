@@ -13,7 +13,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,7 +30,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://rocaray.github.io",
+  "homepage": "https://rocaray.github.io/",
   "devDependencies": {
     "gh-pages": "^2.1.1"
   }
