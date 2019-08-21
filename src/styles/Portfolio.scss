@@ -1,0 +1,57 @@
+.portfolio {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: column nowrap;
+  height: 100%;
+  width: 100%;
+  color: white;
+
+  h1 {
+    width: fit-content;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 30px 0;
+    font-size: 4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .project-container {
+    display: flex;
+    // border: 1px solid red;
+  }
+
+  .projectCard {
+    background: white;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    flex-grow: 1;
+    color: $primary-color;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    img {
+      width: inherit;
+      height: 50%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom: 1px solid black;
+    }
+
+    h3 {
+      font-size: 1.5em;
+      margin: 8px 0 8px 0;
+    }
+
+    p {
+      text-align: initial;
+      padding: 15px;
+      height: 30%;
+    }
+  }
+}

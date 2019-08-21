@@ -1,14 +1,19 @@
 import React from 'react';
-import './App.css';
+import './styles/App.scss';
+import Header from './Header';
+import About from './About';
+import Portfolio from './Portfolio';
+import Tech from './Tech';
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor: 'lightblue'}}>
-      <h1>Ray Yao - Software Engineer</h1>
-      <a href="https://www.linkin.com/in/raymondyao51">LinkedIn</a>
-      <a href="">GitHub</a>
-      <a href="">Resume</a>
-      <p>Gladiator Warrior, best Kirby main, PlatCree, broke af</p>
+    <div className="App">
+      <Header />
+      <div className="main">
+        <About />
+        <Portfolio />
+        <Tech />
+      </div>
     </div>
   );
 }

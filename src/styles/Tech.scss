@@ -1,0 +1,47 @@
+@import "variables";
+
+.tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  color: $primary-color;
+
+  h1 {
+    width: fit-content;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0px 0;
+    font-size: 4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .tech-container {
+    display: grid;
+    grid-template-columns: 18vh 18vh 18vh 18vh 18vh;
+    grid-row-gap: 4vh;
+    grid-column-gap: 8vw;
+    justify-content: center;
+    margin: 5vh 0 5vh 0;
+  }
+
+  .techCard {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+
+    p {
+      padding: 5px;
+      font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .techCard-image {
+      height: 11vh;
+    }
+  }
+}

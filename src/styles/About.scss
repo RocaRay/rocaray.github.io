@@ -1,0 +1,78 @@
+@import 'variables';
+
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column nowrap;
+  color: $primary-color;
+  z-index: 10;
+
+  .title {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+    font-size: 4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    h1 {
+      padding: 10px 0 10px 0;
+      border-top: 1px solid $primary-color;
+      border-bottom: 1px solid $primary-color;
+    }
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 20%;
+      border-radius: 50%;
+    }
+
+    p {
+      margin: 0 8em 0 8em;
+      width: 40%;
+      text-align: justify;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .contact {
+    // background: green;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    height: 150px;
+
+    a {
+      text-decoration: none;
+      color: $primary-color;
+      border-bottom: 1px solid white;
+    }
+
+    a:hover {
+      border-bottom: 1px solid $primary-color;
+    }
+
+    .contact-card {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-flow: column nowrap;
+      // background: red;
+      margin: 10px;
+
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+
+}

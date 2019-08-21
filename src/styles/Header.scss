@@ -1,0 +1,30 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap');
+
+.header {
+  position: fixed;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Spicy Rice', serif;
+  min-height: 50px;
+  font-size: 1.2em;
+  border-bottom: 2px solid $primary-color;
+  z-index: 100;
+  background-color: $primary-color;
+
+  a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    border-bottom: 2px solid $primary-color;
+  }
+
+  a:hover, .selected {
+    border-bottom: 2px solid white;
+  }
+}
