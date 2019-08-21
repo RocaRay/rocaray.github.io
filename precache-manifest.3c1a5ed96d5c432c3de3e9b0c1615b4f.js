@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05566fe3a2c434044cf6dd355806297e",
+    "revision": "df2c5ed7d69da4fd8cf2e9e642fb991a",
     "url": "/index.html"
   },
   {
-    "revision": "558d7a05d193eeb1a98a",
-    "url": "/static/css/main.11e88bcd.chunk.css"
+    "revision": "18b6771a6720d82a80fa",
+    "url": "/static/css/main.75790253.chunk.css"
   },
   {
-    "revision": "1678812d40ac50d0cf9b",
-    "url": "/static/js/2.81029d76.chunk.js"
+    "revision": "86e3fa137a8535d4d796",
+    "url": "/static/js/2.59d36116.chunk.js"
   },
   {
-    "revision": "558d7a05d193eeb1a98a",
-    "url": "/static/js/main.c9e4fa6a.chunk.js"
+    "revision": "18b6771a6720d82a80fa",
+    "url": "/static/js/main.efdbd6a0.chunk.js"
   },
   {
     "revision": "2e87bcf017c1e01fd1d7",
     "url": "/static/js/runtime~main.63ff2b0f.js"
+  },
+  {
+    "revision": "e66b912e0832eff93285c5f5d3dd16de",
+    "url": "/static/media/CalSavvy.e66b912e.gif"
   },
   {
     "revision": "98ff4822d03ab0f5746653f56441d38e",
@@ -36,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/LI_Logo.f08c524d.png"
   },
   {
+    "revision": "67a7956d09da10acac4db3f44de3ecad",
+    "url": "/static/media/Munin.67a7956d.gif"
+  },
+  {
     "revision": "26cc95f255ccb936d154b43614f61602",
     "url": "/static/media/TS_Icon.26cc95f2.png"
   },
@@ -44,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/VSCode_Icon.3f981acd.png"
   },
   {
-    "revision": "bf53b9159030202b00d5cce62e476c31",
-    "url": "/static/media/test.bf53b915.gif"
+    "revision": "f6520ce6e4299cc07530005c71cadca4",
+    "url": "/static/media/codes-sprint-demo.f6520ce6.gif"
   }
 ]);
